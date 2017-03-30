@@ -6,6 +6,6 @@ Unpack LLVM sources
 cd LLVM
 mkdir build 
 
-From build directory invoke:
-cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release ..\..\llvm-4.0.0.src
-mingw32-make
+* From build directory invoke:
+		cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release ..\..\llvm-4.0.0.src
+		mingw32-make
